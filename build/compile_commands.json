@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build",
+  "command": "/usr/bin/c++   -I/usr/include/SDL2    -std=gnu++14 -o CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o -c /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp",
+  "file": "/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp"
+}
+]

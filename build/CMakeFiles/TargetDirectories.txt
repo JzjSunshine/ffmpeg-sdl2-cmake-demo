@@ -1,0 +1,5 @@
+/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/rebuild_cache.dir
+/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/edit_cache.dir
+/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/FFmpeg_Example.dir
+/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/src/CMakeFiles/rebuild_cache.dir
+/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/src/CMakeFiles/edit_cache.dir
