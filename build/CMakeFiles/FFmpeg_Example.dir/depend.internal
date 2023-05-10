@@ -3,6 +3,7 @@
 
 CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o
  /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp
+ /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/output_log.h
  /usr/include/SDL2/SDL.h
  /usr/include/SDL2/SDL_assert.h
  /usr/include/SDL2/SDL_atomic.h
