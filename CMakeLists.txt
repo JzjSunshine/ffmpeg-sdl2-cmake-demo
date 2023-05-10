@@ -32,6 +32,7 @@ include_directories(${FFMPEG_INCLUDE_DIRS} ${SDL2_INCLUDE_DIR})
 
 message("FFMPEG_INCLUDE_DIRS: " ${FFMPEG_INCLUDE_DIRS})
 message("SDL2_INCLUDE_DIR: " ${SDL2_INCLUDE_DIR})
+message("SDL2_LIBRARY: " ${SDL2_LIBRARY})
 
 
 add_subdirectory(src)
@@ -41,5 +42,5 @@ add_subdirectory(src)
 add_executable(FFmpeg_Example ${SOURCES})
 
 # https://stackoverflow.com/questions/50760024/cmake-configuration-for-ffmpeg-in-c-project
-target_link_libraries(FFmpeg_Example PRIVATE ${FFMPEG_LIBRARIES} ${SDL2_LIBRARIES})
+target_link_libraries(FFmpeg_Example PRIVATE ${FFMPEG_LIBRARIES} ${SDL2MAIN_LIBRARY} ${SDL2_LIBRARY})
 # target_include_directories(FFmpeg_Example PRIVATE ${FFMPEG_INCLUDE_DIRS})

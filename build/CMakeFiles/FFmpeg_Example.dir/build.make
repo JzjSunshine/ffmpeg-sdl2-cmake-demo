@@ -86,6 +86,8 @@ FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libavutil.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libavfilter.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libswscale.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libswresample.so
+FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libSDL2main.a
+FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libSDL2.so
 FFmpeg_Example: CMakeFiles/FFmpeg_Example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FFmpeg_Example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FFmpeg_Example.dir/link.txt --verbose=$(VERBOSE)
