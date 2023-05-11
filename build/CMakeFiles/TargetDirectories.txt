@@ -1,5 +1,3 @@
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/rebuild_cache.dir
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/edit_cache.dir
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/FFmpeg_Example.dir
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/src/CMakeFiles/rebuild_cache.dir
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/src/CMakeFiles/edit_cache.dir
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/rebuild_cache.dir
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/edit_cache.dir
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/FFmpeg_Example.dir

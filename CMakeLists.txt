@@ -35,7 +35,11 @@ message("SDL2_INCLUDE_DIR: " ${SDL2_INCLUDE_DIR})
 message("SDL2_LIBRARY: " ${SDL2_LIBRARY})
 
 
-add_subdirectory(src)
+# add_subdirectory(src)
+set(SOURCES
+    src/vPlayer_sdl2.cpp
+    src/main.cpp
+)#创建一个变量，名字叫SOURCE。它包含了所有的cpp文件。
 # # load user source and header files
 # file(GLOB SOURCE_FILES "src/*.h" "src/*.cpp")
 # add_executable(${PROJECT_NAME} WIN32 ${SOURCE_FILES})
@@ -44,3 +48,7 @@ add_executable(FFmpeg_Example ${SOURCES})
 # https://stackoverflow.com/questions/50760024/cmake-configuration-for-ffmpeg-in-c-project
 target_link_libraries(FFmpeg_Example PRIVATE ${FFMPEG_LIBRARIES} ${SDL2MAIN_LIBRARY} ${SDL2_LIBRARY})
 # target_include_directories(FFmpeg_Example PRIVATE ${FFMPEG_INCLUDE_DIRS})
+target_include_directories(FFmpeg_Example
+    PRIVATE 
+        ${PROJECT_SOURCE_DIR}/include
+)#设置这个可执行文件hello_headers需要包含的库的路径

@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp" "/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o"
+  "/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/main.cpp" "/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o"
+  "/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.cpp" "/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL2"
+  "../include"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src
+# Install script for directory: /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

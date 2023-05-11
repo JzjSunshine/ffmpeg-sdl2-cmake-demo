@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test
+CMAKE_SOURCE_DIR = /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build
+CMAKE_BINARY_DIR = /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FFmpeg_Example.dir/depend.make
@@ -57,26 +57,41 @@ include CMakeFiles/FFmpeg_Example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FFmpeg_Example.dir/flags.make
 
+CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o: CMakeFiles/FFmpeg_Example.dir/flags.make
+CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o: ../src/vPlayer_sdl2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o -c /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.cpp
+
+CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.cpp > CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.i
+
+CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.cpp -o CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.s
+
 CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o: CMakeFiles/FFmpeg_Example.dir/flags.make
 CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o -c /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o -c /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/main.cpp
 
 CMakeFiles/FFmpeg_Example.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FFmpeg_Example.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp > CMakeFiles/FFmpeg_Example.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/main.cpp > CMakeFiles/FFmpeg_Example.dir/src/main.cpp.i
 
 CMakeFiles/FFmpeg_Example.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FFmpeg_Example.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp -o CMakeFiles/FFmpeg_Example.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/main.cpp -o CMakeFiles/FFmpeg_Example.dir/src/main.cpp.s
 
 # Object files for target FFmpeg_Example
 FFmpeg_Example_OBJECTS = \
+"CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o" \
 "CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o"
 
 # External object files for target FFmpeg_Example
 FFmpeg_Example_EXTERNAL_OBJECTS =
 
+FFmpeg_Example: CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o
 FFmpeg_Example: CMakeFiles/FFmpeg_Example.dir/src/main.cpp.o
 FFmpeg_Example: CMakeFiles/FFmpeg_Example.dir/build.make
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libavcodec.so
@@ -87,9 +102,10 @@ FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libavfilter.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libswscale.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libswresample.so
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libSDL2main.a
+FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 FFmpeg_Example: /usr/lib/x86_64-linux-gnu/libSDL2.so
 FFmpeg_Example: CMakeFiles/FFmpeg_Example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FFmpeg_Example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable FFmpeg_Example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FFmpeg_Example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +118,6 @@ CMakeFiles/FFmpeg_Example.dir/clean:
 .PHONY : CMakeFiles/FFmpeg_Example.dir/clean
 
 CMakeFiles/FFmpeg_Example.dir/depend:
-	cd /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/FFmpeg_Example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/FFmpeg_Example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FFmpeg_Example.dir/depend
 

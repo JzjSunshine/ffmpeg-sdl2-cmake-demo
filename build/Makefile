@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test
+CMAKE_SOURCE_DIR = /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build
+CMAKE_BINARY_DIR = /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/FFmpeg_Example.dir/build.make CMakeFiles/FFmpeg_Example.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/vPlayer_sdl2.o: src/vPlayer_sdl2.cpp.o
+
+.PHONY : src/vPlayer_sdl2.o
+
+# target to build an object file
+src/vPlayer_sdl2.cpp.o:
+	$(MAKE) -f CMakeFiles/FFmpeg_Example.dir/build.make CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.o
+.PHONY : src/vPlayer_sdl2.cpp.o
+
+src/vPlayer_sdl2.i: src/vPlayer_sdl2.cpp.i
+
+.PHONY : src/vPlayer_sdl2.i
+
+# target to preprocess a source file
+src/vPlayer_sdl2.cpp.i:
+	$(MAKE) -f CMakeFiles/FFmpeg_Example.dir/build.make CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.i
+.PHONY : src/vPlayer_sdl2.cpp.i
+
+src/vPlayer_sdl2.s: src/vPlayer_sdl2.cpp.s
+
+.PHONY : src/vPlayer_sdl2.s
+
+# target to generate assembly for a file
+src/vPlayer_sdl2.cpp.s:
+	$(MAKE) -f CMakeFiles/FFmpeg_Example.dir/build.make CMakeFiles/FFmpeg_Example.dir/src/vPlayer_sdl2.cpp.s
+.PHONY : src/vPlayer_sdl2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/vPlayer_sdl2.o"
+	@echo "... src/vPlayer_sdl2.i"
+	@echo "... src/vPlayer_sdl2.s"
 .PHONY : help
 
 

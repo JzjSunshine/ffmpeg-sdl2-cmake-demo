@@ -9,7 +9,11 @@ https://github.com/katajakasa/SDL_kitchensink
 # ubuntu
 
 ```bash
+# ffmpeg 相关包安装
 sudo apt install libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavresample-dev libavutil-dev
+
+# sdl2 相关包安装
+sudo apt-get install libsdl2-dev
 ```
 
 with cmake
@@ -20,3 +24,6 @@ cd build
 cmake ../
 make
 ```
+
+# demo分支
+为空工程，仅验证 SDL2 和 ffmpeg安装和导入的正确性

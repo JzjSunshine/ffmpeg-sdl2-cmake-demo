@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/main.cpp
+../include/vPlayer_sdl2.h
 stdio.h
 -
 libavcodec/avcodec.h
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/libavcodec/avcodec.h
+../include/libavcodec/avcodec.h
 libavformat/avformat.h
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/libavformat/avformat.h
+../include/libavformat/avformat.h
 libswscale/swscale.h
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/libswscale/swscale.h
+../include/libswscale/swscale.h
 libavutil/imgutils.h
 -
 libswresample/swresample.h
@@ -24,15 +24,43 @@ libavutil/mathematics.h
 libavutil/timestamp.h
 -
 SDL.h
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/SDL.h
-output_log.h
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/output_log.h
+../include/SDL.h
 
-/home/jzj/home/localWork/cppWordDir/ffmpeg-sdl-test/src/output_log.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/output_log.h
 stdio.h
 -
 stdarg.h
 -
+
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/vPlayer_sdl2.h
+stdio.h
+-
+libavcodec/avcodec.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/libavcodec/avcodec.h
+libavformat/avformat.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/libavformat/avformat.h
+libswscale/swscale.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/libswscale/swscale.h
+libavutil/imgutils.h
+-
+libswresample/swresample.h
+-
+libavutil/mathematics.h
+-
+libavutil/timestamp.h
+-
+SDL.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/SDL.h
+
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/main.cpp
+vPlayer_sdl2.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.h
+
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/src/vPlayer_sdl2.cpp
+../include/vPlayer_sdl2.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/vPlayer_sdl2.h
+../include/output_log.h
+/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include/output_log.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

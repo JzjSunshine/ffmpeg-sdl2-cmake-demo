@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL2 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/home/ai2020/jzj/cpp/ffmpeg-sdl2-cmake-demo/include 
 
